@@ -5,7 +5,7 @@
 //
 // getTempCallback('Botucatu', function(err, temp) {
 //   if (err) {
-//     console.log('error', err);
+//     console.log('error', err); testing new pull
 //   } else {
 //     console.log('success', temp);
 //   }
