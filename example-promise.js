@@ -1,11 +1,11 @@
 // function getTempCallback(location, callback) {
-//   callback(undefined, 78);
+//   callback(undefined, 78); Test change again
 //   callback('City not Found');
 // }
 //
 // getTempCallback('Botucatu', function(err, temp) {
 //   if (err) {
-//     console.log('error', err);
+//     console.log('error', err); testing new pull
 //   } else {
 //     console.log('success', temp);
 //   }
