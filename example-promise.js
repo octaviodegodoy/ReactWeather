@@ -26,18 +26,24 @@
 // }, function(err) {
 //   console.log('promise error ', err);
 // });
-function addPromise(a,b){
-  return new Promise(function (resolve,reject){
- if (typeof a === 'number' && typeof b === 'number'){
-     resolve(a + b);
- } else {
-   reject('a and b has to be numbers ');
- }
- })
-}
+// function addPromise(a,b){
+//   return new Promise(function (resolve,reject){
+//  if (typeof a === 'number' && typeof b === 'number'){
+//      resolve(a + b);
+//  } else {
+//    reject('a and b has to be numbers ');
+//  }
+//  })
+// }
+//
+// addPromise(2,'t').then(function(sum){
+//   console.log('success ',sum);
+// },function(err){
+//   console.log('not numbers',err);
+// });
+//
 
-addPromise(2,'t').then(function(sum){
-  console.log('success ',sum);
-},function(err){
-  console.log('not numbers',err);
-});
+
+arr = [1, 2, 3];
+squares = arr.map(x => x * x );
+console.log(squares)
