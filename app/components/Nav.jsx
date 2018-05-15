@@ -22,6 +22,18 @@ var Nav = React.createClass({
             <li>
 
               <IndexLink
+                to="/coinmarketcap"
+                activeClassName="active"
+                activeStyle={{fontWeight: 'bold'}}>
+                Coin Market Cap
+              </IndexLink>
+
+            </li>
+
+
+            <li>
+
+              <IndexLink
                 to="/"
                 activeClassName="active"
                 activeStyle={{fontWeight: 'bold'}}>
