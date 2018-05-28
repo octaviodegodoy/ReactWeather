@@ -26,6 +26,7 @@
 // }, function(err) {
 //   console.log('promise error ', err);
 // });
+<<<<<<< HEAD
 // function addPromise(a,b){
 //   return new Promise(function (resolve,reject){
 //  if (typeof a === 'number' && typeof b === 'number'){
@@ -68,3 +69,20 @@ getTemperature(loc).then(function(temp){
   function(error){
     console.log(error);
   });
+=======
+ function addPromise(a,b){
+   return new Promise(function (resolve,reject){
+  if (typeof a === 'number' && typeof b === 'number'){
+      resolve([a,b]);
+  } else {
+    reject('a and b has to be numbers ');
+  }
+  })
+ }
+
+ addPromise(2,9).then(function(sum){
+   console.log('success ',array);
+ },function(err){
+   console.log('not numbers',err);
+ });
+>>>>>>> 92538e043e17ff3d56365c3588d2cf726e86c488

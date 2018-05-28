@@ -1,5 +1,6 @@
 var React = require('react');
 var {Link} = require('react-router');
+var coinMarketCap = require('coinMarketCap');
 
 var Examples = (props) => {
   return (
@@ -13,7 +14,11 @@ var Examples = (props) => {
 <li>
 <Link to='/?location=Cork'>Cork,Ireland</Link>
 </li>
+<li>
+<h2> {coinMarketCap.getQuotes}alo alo</h2>
+</li>
      </ol>
+
    </div>
   )
 };
